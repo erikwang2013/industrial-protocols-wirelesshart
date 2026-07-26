@@ -29,7 +29,7 @@ use Erikwang2013\IndustrialProtocols\Protocol\ProtocolInterface;
 class WirelessHartProtocol implements ProtocolInterface
 {
     public function getName(): string { return 'wirelesshart'; }
-    public function getVersion(): string { return '1.0.0'; }
+    public function getVersion(): string { return '1.1.1'; }
     public function getSupportedVariants(): array { return ['wireless', 'gateway']; }
     public function getDefaultPort(): int { return 0; }
 

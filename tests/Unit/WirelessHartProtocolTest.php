@@ -20,7 +20,7 @@ class WirelessHartProtocolTest extends TestCase
     public function test_get_version(): void
     {
         $protocol = new WirelessHartProtocol();
-        $this->assertSame('1.0.0', $protocol->getVersion());
+        $this->assertSame('1.1.1', $protocol->getVersion());
     }
 
     public function test_get_supported_variants(): void
